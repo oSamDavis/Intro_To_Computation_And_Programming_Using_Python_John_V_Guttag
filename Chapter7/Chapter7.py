@@ -23,7 +23,7 @@ def sumDigits(s):
             if char.isdigit():  # if char is a digit
                 res += int(char)  # add it to res var
         return res  # return res at the end of the loop
-    except TypeError: # if s is not a string, I raise an error
+    except TypeError:  # if s is not a string, I raise an error
         print("Function sumDigits called with bad arguments")  # Error message
 
         return None  # returns None

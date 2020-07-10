@@ -72,7 +72,7 @@ for i in map(min, L4, L5):
 
 # Lamda Expression
 L6 = []
-for i in map(lambda x, y: x**y, [1, 2, 3, 4], [3, 2, 1, 0]):  # labda expression
+for i in map(lambda x, y: x**y, [1, 2, 3, 4], [3, 2, 1, 0]):  # lambda expression
     L6.append(i)
 print(L6)
 
